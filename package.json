@@ -24,7 +24,8 @@
     "typecheck": "tsgo --noEmit -p tsconfig.tsgo.json",
     "typecheck:astro": "astro sync && astro check",
     "typecheck:all": "npm run typecheck && npm run typecheck:astro",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "docling:warmup": "node scripts/docling-warmup/warmup.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
